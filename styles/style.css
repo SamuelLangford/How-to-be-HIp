@@ -19,6 +19,15 @@ a {
     padding-left: 25%;
     padding-top: 1.8em;
 }
+.body-div a:link {
+color: black;
+}
+.body-div a:visited {
+color: black;
+}
+.body-div a:hover {
+color: black;
+}
 .head{
     background-image: url("../images/back.jpg");
 }
@@ -125,7 +134,12 @@ h2 {
 .fashion-image {
     float:left;
 }
-
+.blogtitle{
+    text-align: center;
+    display: inline-block;
+    margin-right: 8em;
+    margin-left: 8em;
+}
 /*-------------------------------------------------------Misc tags------------------------------------------------------*/
 .col-md-4{
     height: 
@@ -138,6 +152,17 @@ hr {
 }
 form {
     margin-bottom: 1em;
+}
+.blogpost{
+    float: left;
+    border-width: .05em;
+    border: solid;
+    margin-top: 10em;
+    margin-left: 1em;
+}
+.blogpost li{
+    padding-bottom: 3em;
+    text-decoration: none;
 }
 /*------------------------------------------------------------a tags------------------------------------------------*/
 
@@ -171,10 +196,12 @@ color: white;
 }
 
 /*--------------------------------------------------------Embeded videos------------------------------------------------*/
-.belowsongcaption{
-    /*padding-left: 7em;*/
-    text-align: center;
-}
-iframe{
-    padding-left: 5em;
+
+.changeblogbutton {
+    border-radius: 50%;
+    background-color: #f1f1f1;
+    color: black;    
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
 }
