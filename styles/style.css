@@ -1,0 +1,161 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+ul {
+    text-decoration: none!important;
+}
+a {
+    text-decoration: none;
+}
+.body-div{
+    width: 75%;
+    padding-left: 25%;
+    padding-top: 1.8em;
+}
+.head{
+    background-image: url("../images/back.jpg")
+}
+.head h1 {
+    background-color:#C8C8C8;
+}
+/*-------------------------------------------------navbar-------------------------------------------------*/
+
+.main-nav {
+    background-color: #333;
+    overflow: hidden;
+    text-align: center;
+    height: 30px; 
+
+}
+
+.main-nav a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    text-decoration: none;
+}
+/*-------------------------------------------------images-------------------------------------------------*/
+img {
+   padding:1px;
+   border: 2px solid #021a40;
+   /*background-color: #c0c0c0;*/
+}
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 35%;
+    width: 50%;
+    /*padding-bottom: .5em;*/
+}
+
+.homepageimage {
+    float:left;
+    padding: .5em;
+    text-align: center;
+}
+
+.homepageimage2 {
+    float:right;
+    /*padding: .6em;*/
+}
+.homepageimage2 {
+    float:right;
+    padding: .6em;
+}
+.musicimage{
+    text-align: center;
+}
+
+figcaption{
+    text-align: center;
+}
+
+.fashionimg{
+    height: 20em;
+
+}
+.musicprofile{
+    text-align: center;
+}
+.bandnames{
+    text-align: center;
+}
+
+/*-------------------------------------------------paragraphs-------------------------------------------------*/
+.homepagepar {
+ padding: .5em;
+ width: 100%;
+}
+
+/*------------------------------------------------------------headers----------------------------------------*/
+.headertitle{
+    font-family: 'Black Han Sans', sans-serif;
+}
+h1{
+    font-family: 'Black Han Sans', sans-serif;
+    text-align: center;
+    font-size: 4em;
+}
+h2 {
+      font-family: 'Lobster', cursive;
+      /*padding-left: 30%;*/
+      font-size: 2em;
+      text-align: center;
+}
+
+/*-------------------------------------------------------Misc tags------------------------------------------------------*/
+.col-md-4{
+    height: 
+}
+.boxdiv{
+    padding-bottom: 4em;
+}
+hr {
+    size:2px;
+}
+/*------------------------------------------------------------a tags------------------------------------------------*/
+
+.boxdiv a:link {
+color: black;
+}
+.boxdiv a:visited {
+color: black;
+}
+.boxdiv a:hover {
+color: black;
+}
+
+/*------------------------------------------------------------footer------------------------------------------------*/
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    color: white;
+    text-align: center;
+}
+.footer a:link {
+color: white;
+}
+.footer a:visited {
+color: white;
+}
+.footer a:hover {
+color: white;
+}
+
+/*--------------------------------------------------------Embeded videos------------------------------------------------*/
+.belowsongcaption{
+    /*padding-left: 7em;*/
+    text-align: center;
+}
+iframe{
+    padding-left: 5em;
+}
